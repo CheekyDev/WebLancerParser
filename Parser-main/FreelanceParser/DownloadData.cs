@@ -11,8 +11,8 @@ namespace FreelanceParser
         public void Auth(string url)
         {
             //FIXME: we have to moving these fields
-            string login = "CheekyDev";
-            string password = "m85xt2";
+            string login = "login";
+            string password = "pass";
 
             _request = new HttpRequest(url)
             {
